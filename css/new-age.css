@@ -152,14 +152,14 @@ header {
   min-height: auto;
   overflow-y: hidden;
   
-  background: url("../img/omasky.jpg"), #7b4397;
+  background: #666655;
   /* fallback for old browsers */
-  background: url("../img/omasky.jpg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(to left, #fdcc52, #666655);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/omasky.jpg"), linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left,#fdcc52, #666655);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-  background-size: cover;
+  color: white;  
+  background-size: cover; 
   background-color: rgba(0,0,0,.8);
 }
 header .header-content {
@@ -449,5 +449,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-top-highlight-color: #222222;
 }
